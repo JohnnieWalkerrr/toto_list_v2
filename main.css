@@ -1,0 +1,29 @@
+.main-header {
+    margin: 1rem auto;
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+.add-tast-el {
+    justify-content: space-around;
+}
+
+.btn-add {
+    width: 20%;
+}
+
+.task-el {
+    justify-content: space-evenly;
+    margin: 0.5rem auto;
+}
+
+.form-control {
+    width: 78%;
+}
+
+button {
+    width: 10%;
+    font-size: 1rem;
+}
