@@ -96,4 +96,4 @@ document.querySelector('.tasks-section').addEventListener('click', e => {
     UI.deleteTask(e.target);
 });
 
-// todo storage, edit, save etc
+// todo edit, save, styles
