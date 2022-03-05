@@ -5,10 +5,7 @@ const remove_btn = document.querySelector('.btn-remove');
 
 class UI {
     static showTasks() {
-        // const ala_ls = ['task one', 'task two', 'task three'];
-
         const tasksArray = Store.getTasks();
-
         tasksArray.forEach(task => UI.addTaskToList(task));
     }
 
@@ -18,7 +15,6 @@ class UI {
         task_output.innerHTML += `
             <div class="task-el input-group-text">
                 <input class="form-control new-task-input" readonly type="text" value="${task}" />
-                <button class='btn-done button btn btn-outline-success' type="submit">Done</button>
                 <button class='btn-remove btn btn-outline-danger' type="submit">Remove</button>
             </div>
         `;
